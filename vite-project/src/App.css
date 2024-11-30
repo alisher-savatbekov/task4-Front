@@ -1,0 +1,66 @@
+.app{
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.part-2{
+  width: 50%;
+}
+.part-2 img{
+  width: 100%;
+  height: 100%;
+}
+
+.part-1{
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  /* justify-content: center; */
+}
+
+.login .login-form
+{
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.login .button_submit{
+  width: 100%;
+  margin-top: 5%; 
+}
+.login p{
+  padding: 0px;
+  margin: 0;
+}
+
+.login h3{
+   padding-bottom: 10%;
+}
+
+.login h3 ,.login p{
+  text-indent: 2%;
+}
+
+
+.check_remember{
+
+  margin-left: 5%;
+  padding-top:5%;
+}
+
+.polekrana{
+  width: 50%;
+  height: 100%;
+}
